@@ -4,7 +4,7 @@ clc
 
 data = importdata('BD_AMPA_MAX.csv'); % Pool of maximum currents evoked by BD-CreER+ inputs 
 data_cart = importdata('CART_AMPA_MAX.csv'); % Pool of maximum currents evoked by CART-Cre+ inputs
-TC_total = 100; 
+TC_total = 1000; 
 BD_frac = 0.494; % Fraction of ventral ooDSGCs 
 Dors_frac = 0.506; % Fraction of dorsal ooDSGCs
 
