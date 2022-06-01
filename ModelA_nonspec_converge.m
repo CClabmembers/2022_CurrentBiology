@@ -170,6 +170,3 @@ legend([nor_RGC_CART_nonZ_plot nor_CART_nonZ_plot nor_RGC_BD_nonZ_plot], 'CART_p
 legend boxoff
 title("");
 [nor_nonZ_h1,p1] = kstest2 (nor_RGC_CART_nonZ, nor_RGC_BD_nonZ);
-[nor_nonZ_h2,p2] = kstest2 (nor_RGC_CART_nonZ, nor_CART_nonZ);
-[nor_nonZ_h3,p3] = kstest2 (nor_RGC_BD_nonZ, nor_CART_nonZ);
-test_result = [nor_nonZ_h1, p1; nor_nonZ_h2, p2;nor_nonZ_h3,p3];
